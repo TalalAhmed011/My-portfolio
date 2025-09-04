@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+@layer utilities {
+  .text-dark {
+    color: #111827; /* or whatever color you prefer */
+  }
+}
+}
