@@ -11,7 +11,7 @@ const projects = [
     title: "CV Builder",
     description: "Multi-step dynamic CV builder with editable experience sections and responsive UI.",
     tech: ["React", "Bootstrap", "JavaScript"],
-    link: "https://your-cv-builder-link.com",
+    link: "https://github.com/TalalAhmed011/Cv-builder",
   },
   {
     title: "Python GUI Merger",

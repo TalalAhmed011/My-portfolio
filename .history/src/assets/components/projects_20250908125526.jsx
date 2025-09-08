@@ -19,6 +19,13 @@ const projects = [
     tech: ["Python", "Tkinter", "Pandas"],
     link: "https://your-python-gui-link.com",
   },
+  {
+  title: "Merge & Upload",
+  description: "A desktop app featuring Oracle database integration, date filtering, and real-time progress tracking.",
+  tech: ["Python", "Tkinter", "pyodbc", "SQLite/Oracle", "tkcalendar"],
+  link: "https://your-project-link.com",
+}
+
 ];
 
 const Projects = () => {

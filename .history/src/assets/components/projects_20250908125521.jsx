@@ -11,7 +11,7 @@ const projects = [
     title: "CV Builder",
     description: "Multi-step dynamic CV builder with editable experience sections and responsive UI.",
     tech: ["React", "Bootstrap", "JavaScript"],
-    link: "https://your-cv-builder-link.com",
+    link: "https://your-cv-https://github.com/TalalAhmed011/Cv-builder-link.com",
   },
   {
     title: "Python GUI Merger",
@@ -19,13 +19,20 @@ const projects = [
     tech: ["Python", "Tkinter", "Pandas"],
     link: "https://your-python-gui-link.com",
   },
+  {
+  title: "Merge & Upload",
+  description: "A desktop app featuring Oracle database integration, date filtering, and real-time progress tracking.",
+  tech: ["Python", "Tkinter", "pyodbc", "SQLite/Oracle", "tkcalendar"],
+  link: "https://your-project-link.com",
+}
+
 ];
 
 const Projects = () => {
   return (
-    <section id="projects" className="bg-dark text-light py-20 px-6">
+    <section id="projects" className="bg-dark text-light min-h-screen py-20 px-6">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-boldtext-[#38BDF8] mb-10 border-b border-gray-800 pb-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-[#38BDF8] mb-10 border-b border-gray-800 pb-4">
           Projects
         </h2>
 
@@ -43,7 +50,7 @@ const Projects = () => {
                 {project.tech.map((tech, i) => (
                   <span
                     key={i}
-                    className="text-xs bg-gray-800 text-accent px-2 py-1 rounded"
+                    className="text-xs bg-gray-800 text-[#38BDF8] px-2 py-1 rounded"
                   >
                     {tech}
                   </span>
@@ -53,7 +60,7 @@ const Projects = () => {
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-accent hover:underline"
+                className="text-sm text-[#38BDF8] hover:underline"
               >
                 View Project →
               </a>
